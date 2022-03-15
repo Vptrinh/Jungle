@@ -44,10 +44,12 @@ RSpec.describe User, type: :model do
       it 'should return user' do
         @user = User.create(
           name: 'Vivian',
-          email: 'vivian@test.com',
+          email: 'ViViAN@test.com',
           password: 'password',
           password_confirmation: 'password'
         )
+        @user.email.downcase!
+        @user.save
         @user2 = User.authenticate_with_credentials('ViViAn@teSt.com', 'password')
         expect(@user2).to eq(@user)
       end
