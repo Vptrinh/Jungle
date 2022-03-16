@@ -24,7 +24,7 @@ RSpec.feature "Visitor clicks product partials and goes to the new page", type: 
     expect(page).to have_content('Description')
 
     # commented out b/c it's for debugging only
-    # save_and_open_screenshot
+    save_and_open_screenshot
 
   end
 
