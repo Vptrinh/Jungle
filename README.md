@@ -2,12 +2,27 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+### The Home Page
+
+!['main-page'](https://github.com/Vptrinh/Jungle/blob/master/public/images/Jungler-Homepage.PNG?raw=true)
+_The main page shows off the catelog of all of the products and supports login/signup functionality._
+
+### My Cart
+
+!['Cart'](https://github.com/Vptrinh/Jungle/blob/master/public/images/Jungler-cart.PNG?raw=true)
+_Add, remove, and adjust the quantities of items in your cart as needed._
+
+### Payment Options
+
+!['Payment'](https://github.com/Vptrinh/Jungle/blob/master/public/images/Jungler-Payment.PNG?raw=true)
+_Supports payment testing using Stripe Testing._
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
 1. Install ImageMagick `brew install imagemagick imagemagick@6 --build-from-source`
-2. Remove Gemfile.lock
-3. Replace Gemfile with version provided [here](https://gist.githubusercontent.com/FrancisBourgouin/831795ae12c4704687a0c2496d91a727/raw/ce8e2104f725f43e56650d404169c7b11c33a5c5/Gemfile)
+1. Remove Gemfile.lock
+1. Replace Gemfile with version provided [here](https://gist.githubusercontent.com/FrancisBourgouin/831795ae12c4704687a0c2496d91a727/raw/ce8e2104f725f43e56650d404169c7b11c33a5c5/Gemfile)
 
 ## Setup
 
@@ -28,6 +43,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Dependencies
 
-* Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
-* PostgreSQL 9.x
-* Stripe
+- Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
+- PostgreSQL 9.x
+- Stripe
